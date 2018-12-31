@@ -4,10 +4,13 @@ QTY	MFR & P/N		Description
 1	Hammond 1444-12		Power Supply Chassis
 1	EDCOR XPWR057		Power XFMR (5V@3A, 6.3V@4A, 420V@120mA; All CT)
 1	AES P-SP2-500		IEC Power Receptacle (Fused)
+1	AES P-H250		Carling DPST (Play-STBY-Off) switch
 1	AES P-ST4-194		4 Pin Socket (Ceramic) - PSU Rectifier Tube
 5	AES P-ST8-807		8 Pin Socket (Ceramic) - Coils & Power Cable
 6	AES P-ST9-511		9 Pin Socket (Ceramic) - Instrument Tubes
 1	AES P-G716		1/4" Rubber Grommet (Pk of 5) - Chassis Holes
+1	AES P-L110		Pilot Lamp Holder
+1	AES P-L115		Pilot Lamp Jewel (Red)
 2	AES P-SP8-476		Octal Tube Base - Power cable plugs
 3	AES P-SP8-500		Octal Plug - Plug-In Coils
 1	AES W-RN-912-PC		1/4" Mono Jack - Output
@@ -15,9 +18,10 @@ QTY	MFR & P/N		Description
 2	AES R-VPEC-100KL	100K Linear Pot 2.0W - Mixer / PA Output
 1	AES C-ET100-450		450V 100uF Electrolytic Cap. - PS Filter
 3	AES C-ET22-450		450V 22uF Electrolytic Cap. - PS Filter
-3	AES C-V100P		100pF Variable Cap. - Osc. Tuning
+3	AES C-V100P		100pF Variable Cap. - Oscillator Tuning
 *2	AES C-SM????		????pF Silver Mica Cap. - Pitch Osc's
 *1	AES C-SM????		????pF Silver Mica Cap. - Volume Osc.
 *1	EF Johnson 15M11	2-15pF Air Variable Cap. - Pitch Osc. Coupling
 2	TUBE EF86		Mixer, VCA
 4	TUBE 12AX7		FPO, VPO, VO, DC Restorer (for VCA)
+1	LAMP #47		Pilot lamp (6.3V 0.15A - AES P-47 Pk of 10)
