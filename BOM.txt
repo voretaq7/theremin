@@ -13,7 +13,7 @@ QTY	MFR & P/N		Description
 1	AES P-L115		Pilot Lamp Jewel (Red)
 2	AES P-SP8-476		Octal Tube Base - Power cable plugs
 3	AES P-SP8-500		Octal Plug - Plug-In Coils
-1	AES W-RN-912-PC		1/4" Mono Jack - Output
+1	AES W-RN-902		1/4" Mono Jack - Output
 2	AES R-VA50KL		50K Linear Pot 0.5W - Pitch Osc. Output
 2	AES R-VPEC-100KL	100K Linear Pot 2.0W - Mixer / PA Output
 1	AES C-ET100-450		450V 100uF Electrolytic Cap. - PS Filter
