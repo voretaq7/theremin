@@ -25,3 +25,11 @@ QTY	MFR & P/N		Description
 2	TUBE EF86		Mixer, VCA
 4	TUBE 12AX7		FPO, VPO, VO, DC Restorer (for VCA)
 1	LAMP #47		Pilot lamp (6.3V 0.15A - AES P-47 Pk of 10)
+
+===
+3D Printed Parts
+
+Insulator for AES C-V100P (https://www.thingiverse.com/thing:3383479)
+ - 3 (Optional but recommended)
+
+
