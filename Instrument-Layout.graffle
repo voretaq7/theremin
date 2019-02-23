@@ -207,7 +207,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2019-01-24 03:43:30 +0000</string>
+	<string>2019-02-23 09:09:29 +0000</string>
 	<key>Modifier</key>
 	<string>Michael Graziano</string>
 	<key>MovementHandleVisible</key>
@@ -243,7 +243,7 @@
 		<key>NSPaperName</key>
 		<array>
 			<string>string</string>
-			<string>503D9BC4-75C1-41A6-8D08-4288CF7C6EFF</string>
+			<string>DBFF8441-C659-4513-9A03-A834C5EF9394</string>
 		</array>
 		<key>NSPaperSize</key>
 		<array>
@@ -315,6 +315,134 @@
 			<string>1 in = 1.00000 in</string>
 			<key>GraphicsList</key>
 			<array>
+				<dict>
+					<key>Bounds</key>
+					<string>{{595.43998669087887, 424.5114188832905}, {25.199999570846558, 342}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>ID</key>
+					<integer>59</integer>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>a</key>
+								<real>0.25</real>
+								<key>b</key>
+								<real>1</real>
+								<key>g</key>
+								<real>0.75</real>
+								<key>r</key>
+								<real>0.75</real>
+								<key>space</key>
+								<string>srgb</string>
+							</dict>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<real>0.5</real>
+								<key>g</key>
+								<real>0.5</real>
+								<key>r</key>
+								<real>0.5</real>
+								<key>space</key>
+								<string>srgb</string>
+							</dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
+
+\f0\fs32 \cf0 S\
+H\
+I\
+E\
+L\
+D}</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{504.88667268554354, 424.5114188832905}, {25.199999570846558, 342}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>ID</key>
+					<integer>58</integer>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>a</key>
+								<real>0.25</real>
+								<key>b</key>
+								<real>1</real>
+								<key>g</key>
+								<real>0.75</real>
+								<key>r</key>
+								<real>0.75</real>
+								<key>space</key>
+								<string>srgb</string>
+							</dict>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<real>0.5</real>
+								<key>g</key>
+								<real>0.5</real>
+								<key>r</key>
+								<real>0.5</real>
+								<key>space</key>
+								<string>srgb</string>
+							</dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
+
+\f0\fs32 \cf0 S\
+H\
+I\
+E\
+L\
+D}</string>
+					</dict>
+				</dict>
 				<dict>
 					<key>Bounds</key>
 					<string>{{1038.0733284329376, 280.4800054877997}, {53.999998793005943, 53.999998793005943}}</string>
@@ -796,12 +924,14 @@ COIL/TANK\
 								<key>space</key>
 								<string>srgb</string>
 							</dict>
+							<key>Pattern</key>
+							<integer>1</integer>
 						</dict>
 					</dict>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -1649,7 +1779,7 @@ COIL/TANK\
 		<key>Sidebar_Tab</key>
 		<integer>0</integer>
 		<key>VisibleRegion</key>
-		<string>{{-95.333333333333329, -228}, {1512, 1190.6666666666665}}</string>
+		<string>{{353.42857142857144, 322.71428571428572}, {648, 510.28571428571428}}</string>
 		<key>WindowInfo_InspectorTab</key>
 		<array>
 			<string>com.omnigroup.OmniGraffle.inspectorGroup.object</string>
@@ -1658,7 +1788,7 @@ COIL/TANK\
 		<array>
 			<array>
 				<string>Canvas 1</string>
-				<real>0.75</real>
+				<real>1.75</real>
 				<real>0.75</real>
 			</array>
 		</array>
@@ -1668,14 +1798,14 @@ COIL/TANK\
 	<key>copyLinkedImagesKey</key>
 	<false/>
 	<key>createSinglePDFKey</key>
-	<true/>
+	<integer>1</integer>
 	<key>exportAreaKey</key>
 	<integer>4</integer>
 	<key>exportQualityKey</key>
 	<real>100</real>
 	<key>exportSizesKey</key>
 	<array>
-		<integer>1</integer>
+		<real>1</real>
 		<string></string>
 	</array>
 	<key>fileFormatKey</key>
@@ -1687,7 +1817,7 @@ COIL/TANK\
 	<key>includeNonPrintingLayersKey</key>
 	<false/>
 	<key>lastExportTypeKey</key>
-	<integer>7</integer>
+	<integer>8</integer>
 	<key>marginWidthKey</key>
 	<real>0.0</real>
 	<key>readOnlyKey</key>
