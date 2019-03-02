@@ -1,0 +1,52 @@
+Theremin Construction Notes:
+
+Oscillators
+-----------
+Using the layout specified the oscillator tanks MUST be shielded as
+shown to prevent excessive coupling between the oscillators. Alternate
+layouts orienting the oscillator tanks at right angles (as in the 1930s
+instruments) or increasing the distance between them reduce the
+tendency of the oscillator tanks to couple and may eliminate the need
+for shielding.
+
+For flexibility the oscillator cathodes should be grounded using spade
+connectors clipped to the pins of the oscillator tank sockets. The
+configuration shown on the schematic using the 33% tap point (Pin 5)
+is appropriate for a 12AX7 tube and should also work for 12AT7, 12AY7
+or 12AU7 tubes. If the tank coil develops excessive voltaeg a lower
+tap should be selected.
+
+
+Mixer Circuit
+-------------
+Potentiometers between the pitch oscillators and the mixer tube are
+identical to values in the Rockmore circuit schematic by Bob Moog.
+Values from 25K to 100K were tried and the values in that schematic
+give the best ability to vary waveform shape with a typical
+(300-degree) potentiometer.
+Values up to 100K in both positions may be usable with multi-turn
+potentiometers & allow more control however wirewound potentiometers
+should be avoided due to inductance effects on the RF signal and
+conductive plastic / carbon composition multi-turn potentiometers are
+cost-prohibitive.
+
+Grids 1 & 2 of the mixer tube have 1Meg ohm leak resistors connected
+to the cathode pin which is grounded directly.
+Grid 3 of the mixer tube is connected to the plate to simulate tetrode
+operation (emulating a type 24 tetrode) however this may be switched to
+ground for pentode operation of the EF86 tube.
+
+The setting of this potentiometer determines the drive level for the
+volume stage amplifier. The combination of this plate potentiometer
+and the volume stage plate potentiometer will determine the maximum
+final output volume.
+
+* As in the RCA/Rosen/Rockmore designs the mixer tube is biased beyond
+* cutoff: The negative peaks from the pitch oscillators are sufficient
+* to stop the tube from conducting. Overall operation is class AB.
+
+
+Volume Circuit
+--------------
+
+

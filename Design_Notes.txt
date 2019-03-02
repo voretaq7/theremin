@@ -1,0 +1,25 @@
+Theremin Design Notes:
+
+Oscillators
+-----------
+Hartley oscillators were chosen in place of the Armstrong oscillators
+used in Lev era instruments (RCA, Rockmore, Rosen) mainly for ease
+of construction (a single coil tank with multiple taps is easier to
+build than the transformer type coils).
+
+The cathode is used to pass signal to the mixer stage as it appears to
+include harmonic content from the oscillators.
+
+
+Mixer Circuit
+-------------
+As in the RCA/Rosen/Rockmore designs the mixer tube is biased beyond
+cutoff: The negative peaks from the pitch oscillators are sufficient
+to stop the tube from conducting. Overall operation is class AB or
+class C. Distortion & harmonic content is similar to RCA theremins
+
+
+Volume Circuit
+--------------
+
+
