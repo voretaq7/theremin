@@ -18,13 +18,23 @@ QTY	MFR & P/N		Description
 2	AES R-VPEC-100KL	100K Linear Pot 2.0W - Mixer / PA Output
 1	AES C-ET100-450		450V 100uF Electrolytic Cap. - PS Filter
 3	AES C-ET22-450		450V 22uF Electrolytic Cap. - PS Filter
+4	TDK B78108S1225J000	2200uH RF Choke - Plate Supply.
+7	1Meg ohm resistor	0.25W - Grid Leak Resistors
+1	1K ohm resistor		0.25W - Mixer tube plate fixed res.
+1	100 ohm resistor	0.25W - Volum tube plate fixed res.
+3	100 ohm resistor	5.0W  - Power supply dropping res.
 3	AES C-V100P		100pF Variable Cap. - Oscillator Tuning
-*2	AES C-SM????		????pF Silver Mica Cap. - Pitch Osc's
-*1	AES C-SM????		????pF Silver Mica Cap. - Volume Osc.
-*1	EF Johnson 15M11	2-15pF Air Variable Cap. - Pitch Osc. Coupling
+*1	EF Johnson 15M11	15pF Variable Cap. - Pitch Osc. Coupling
+2	AES C-SM1000		1000pF Silver Mica Cap. - Pitch tanks
+2	AES C-SM50		50pF Silver Mica cap. - Pitch feedback
+*1	AES C-SM????		????pF Silver Mica Cap. - Volume tank
+*1	AES C-SM????		????pF Silver Mica Cap. - Volume feedback
+2	AES C-SM100		100pF Silver Mica cap. - Pitch/Mixer Coupling
+*1	CAPACITOR		0.??uF - Mixer/Volume coupling cap.
+*1	CAPACITOR		0.47uF - Output coupling cap.
 2	TUBE EF86		Mixer, VCA
 4	TUBE 12AX7		FPO, VPO, VO, DC Restorer (for VCA)
-1	LAMP #47		Pilot lamp (6.3V 0.15A - AES P-47 Pk of 10)
+1	LAMP #47		Pilot lamp (6.3V 0.15A - AES P-47 Pk/10)
 
 ===
 3D Printed Parts
@@ -32,4 +42,8 @@ QTY	MFR & P/N		Description
 Insulator for AES C-V100P (https://www.thingiverse.com/thing:3383479)
  - 3 (Optional but recommended)
 
+===
+Other Parts
 
+Shield between pitch oscillators (aluminum or steel sheet).
+ - 2 required with this layout
