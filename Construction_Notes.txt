@@ -1,20 +1,44 @@
 Theremin Construction Notes:
 
-Oscillators
+Pitch Oscillators
 -----------
-Using the layout specified the oscillator tanks MUST be shielded as
+Using the layout specified the pitch oscillators MUST be shielded as
 shown to prevent excessive coupling between the oscillators. Alternate
 layouts orienting the oscillator tanks at right angles (as in the 1930s
 instruments) or increasing the distance between them reduce the
 tendency of the oscillator tanks to couple and may eliminate the need
-for shielding.
+for shielding, however there may still be the tendency to couple
+through the 12AX7 tubes due to proximity. Tube shields will reduce this
+effect.
 
 For flexibility the oscillator cathodes should be grounded using spade
 connectors clipped to the pins of the oscillator tank sockets. The
 configuration shown on the schematic using the 33% tap point (Pin 5)
-is appropriate for a 12AX7 tube and should also work for 12AT7, 12AY7
-or 12AU7 tubes. If the tank coil develops excessive voltaeg a lower
-tap should be selected.
+is appropriate for the 12AX7 tubes used in testing. This should also
+work for 12AT7, 12AY7 or 12AU7 tubes.
+If the tank coil develops excessive voltage a lower tap should be
+selected.
+
+A pitch oscillator coupling capacitor is included as described by
+Robert Moog in his notes on the Rockmore theremin:
+    In the tuned circuit portion of the instrument (the back of the
+    instrument) there is a small variable capacitor midway between
+    the two pitch oscillators. There is a red dot that shows where
+    the tops of the plates should be. This adjustment probably should
+    not be changed.
+    
+    This is the "coupling control". It may be just 10 picofarads or
+    so,to couple the plate circuits of the fixed and variable
+    oscillators. 
+
+Any capacitance here - even as little as 1pF - will influence the
+wave shape of the two oscillators. Practical values are ~2-7pF,
+The "correct" setting of the coupling capacitor depends on the
+potentiometer settings in the mixer circuit as described later.
+
+The coupling capacitor can be eliminated without major effects, but
+it presents an interesting opportunity to influence the instrument's
+tone.
 
 
 Mixer Circuit
@@ -30,23 +54,38 @@ should be avoided due to inductance effects on the RF signal and
 conductive plastic / carbon composition multi-turn potentiometers are
 cost-prohibitive.
 
+Note that the setting of the potentiometers affects the tendency
+of the pitch oscillators to couple through the mixer tube (V5).
+At minimum resistance on both potentiometers the inter-electrode
+capacitance between grids 1 & 2 of the EF86 tube will have the same
+effect as the coupling capacitor described earlier (effective
+capacitance is between 1.5-2.5pF but this varies between tubes).
+
+
 Grids 1 & 2 of the mixer tube have 1Meg ohm leak resistors connected
 to the cathode pin which is grounded directly.
 Grid 3 of the mixer tube is connected to the plate to simulate tetrode
-operation (emulating a type 24 tetrode) however this may be switched to
-ground for pentode operation of the EF86 tube.
+operation (emulating a type 24 tetrode). This connection should be made
+using the shortest possible jumper between pins 6 and 8.
 
-The setting of this potentiometer determines the drive level for the
+The setting of the plate potentiometer determines the drive level for the
 volume stage amplifier. The combination of this plate potentiometer
 and the volume stage plate potentiometer will determine the maximum
-final output volume.
-
-* As in the RCA/Rosen/Rockmore designs the mixer tube is biased beyond
-* cutoff: The negative peaks from the pitch oscillators are sufficient
-* to stop the tube from conducting. Overall operation is class AB.
+final output volume. A 1K ohm resistor is used to set the minimum drive
+level. This arrangement could be replaced by fixed resistors if desired.
 
 
 Volume Circuit
 --------------
+The volume circuit shown here has not yet been tested successfully,
+however the core theory appears sound: A series resonant circuit
+varies the amplitude of the waveform seen on V4 pins 1 and 8.
+V4 acts as a DC restorer, converting the entire waveform to a
+positive voltage which is smoothed by the volume buffer capacitor.
 
-
+The volume oscillator output has a high amplitude when the hand is far
+from the volume antenna, producing a large positive voltage on Grid 2
+of V6. The tube conducts and increases the output volume proportionally.
+When the hand is close to the volume antenna the volume oscillator
+output has a small amplitude. Grid 2 is at or near ground potential,
+cutting off V6 and silencing the output.

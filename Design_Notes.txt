@@ -1,25 +1,45 @@
 Theremin Design Notes:
 
-Oscillators
+Pitch Oscillators
 -----------
 Hartley oscillators were chosen in place of the Armstrong oscillators
 used in Lev era instruments (RCA, Rockmore, Rosen) mainly for ease
 of construction (a single coil tank with multiple taps is easier to
 build than the transformer type coils).
 
-The cathode is used to pass signal to the mixer stage as it appears to
-include harmonic content from the oscillators.
+The cathode is used to pass signal to the mixer stage as it is least
+affected by capacitive loading in the mixer tube. Some harmonic
+distortion is evident in the output here.
 
 
 Mixer Circuit
 -------------
 As in the RCA/Rosen/Rockmore designs the mixer tube is biased beyond
 cutoff: The negative peaks from the pitch oscillators are sufficient
-to stop the tube from conducting. Overall operation is class AB or
-class C. Distortion & harmonic content is similar to RCA theremins
+to stop the tube from conducting. Overall operation is between class AB 
+or class C. Distortion & harmonic content is similar to RCA theremins
+based on waveform diagrams from rcatheremin.com.
+
+
+The mixer tube is configured with G3 (suppressor grid) connected to
+the anode. This connection emulates the Type 24 tetrode used in the
+1930s instruments.
+Connections to ground (typical pentode operation) and to the G2
+(screen grid, VPO) signal were both tried and found to be suboptimal.
 
 
 Volume Circuit
 --------------
+Construction of the Lev-era volume circuit which operated by varying
+filament voltage to a UX-120 triode is not practical: The UX-120
+used a directly-heated cathode, and changing cathode filament voltage
+rapidly affected electron output (thus affecting available gain).
+The modern production EF86 tube used here has an indirectly heated
+cathode which carries more thermal inertia and would not produce
+adequate volume response for staccato playing.
 
-
+Instead the EF86 tube is employed as a voltage-controlled amplifier:
+G2 is held at ground potential (slightly negative with respect
+to the cathode) and driven positive by the output of the volume
+circuit. Staccato response time is determined by the time constant
+of the volume buffer capacitor and G2 leak resistor.

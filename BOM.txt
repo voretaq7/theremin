@@ -19,7 +19,7 @@ QTY	MFR & P/N		Description
 1	AES C-ET100-450		450V 100uF Electrolytic Cap. - PS Filter
 3	AES C-ET22-450		450V 22uF Electrolytic Cap. - PS Filter
 4	TDK B78108S1225J000	2200uH RF Choke - Plate Supply.
-7	1Meg ohm resistor	0.25W - Grid Leak Resistors
+8	1Meg ohm resistor	0.25W - Grid Leak Resistors
 1	1K ohm resistor		0.25W - Mixer tube plate fixed res.
 1	100 ohm resistor	0.25W - Volum tube plate fixed res.
 3	100 ohm resistor	5.0W  - Power supply dropping res.
