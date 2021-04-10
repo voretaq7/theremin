@@ -39,7 +39,36 @@ cathode which carries more thermal inertia and would not produce
 adequate volume response for staccato playing.
 
 Instead the EF86 tube is employed as a voltage-controlled amplifier:
-G2 is held at ground potential (slightly negative with respect
-to the cathode) and driven positive by the output of the volume
-circuit. Staccato response time is determined by the time constant
-of the volume buffer capacitor and G2 leak resistor.
+
+The volume oscillator output is passed through a series LC filter
+which is tuned by hand capacitance to the volume loop. The volume
+oscillator frequency may be selected so the circuit approaches
+maximum volume resonance either when the hand is near the volume
+loop or when it is away from the loop, as preferred by the player.
+
+The waveform passed through the series LC filter is fed to 
+a DC restorer circuit (V4 pins 1 and 8) which converts the
+waveform to a DC voltage smoothed by the Volume Buffer capacitor.
+This output is one input to the Cutoff Bias voltage divider.
+The other end of this voltage divider is connected to the C supply
+from a 9V battery, and the potentiomete ris set to drive the V6
+into cutoff when the volume circuit output is at minimum.
+* The battery in this circuit does not source any DC current:
+  The C voltage rail is isolated from DC ground.
+
+The 5K and 100K fixed resistors between the DC restorer and G2
+form low-pass filter circuits with the 250pf capacitors to
+to suppress RF propagation from the output tube to the volume
+circuit DC restorer (V4).
+The values here are not critical, however the filter cutoff
+frequency should be at most 1/2 of the volume oscillator frequency.
+
+
+The cutoff bias potentiometer must be a linear potentiometer as
+the response of the output tupe (V6) to G2 voltage is approximately
+logarithmic.
+
+As designed the output tube G3 (V6 Pin 8) is used as a suppressor
+grid. It is possible to tie G3 to G2, either directly or through a
+voltage divider, and use both grids to control the volume response
+of V6.

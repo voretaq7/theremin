@@ -1,5 +1,15 @@
 Theremin Construction Notes:
 
+Tube Shielding
+-----------
+It is absolutely necessary to shield the 12A_7 tubes.
+Ordinary tube shields may suffice. Alternatively the tubes may be
+wrapped with copper or aluminum foil tape. This tape should be grounded.
+
+If a crackling noise is observed, particularly at high volume, the 12A_7
+tubes should be wrapped with foil tape to see if the issue is eliminated.
+
+
 Pitch Oscillators
 -----------
 Using the layout specified the pitch oscillators MUST be shielded as
@@ -49,10 +59,8 @@ Values from 25K to 100K were tried and the values in that schematic
 give the best ability to vary waveform shape with a typical
 (300-degree) potentiometer.
 Values up to 100K in both positions may be usable with multi-turn
-potentiometers & allow more control however wirewound potentiometers
-should be avoided due to inductance effects on the RF signal and
-conductive plastic / carbon composition multi-turn potentiometers are
-cost-prohibitive.
+potentiometers & allow more control. Wirewound potentiometers
+should be avoided due to inductance effects on the RF signal.
 
 Note that the setting of the potentiometers affects the tendency
 of the pitch oscillators to couple through the mixer tube (V5).
@@ -77,15 +85,8 @@ level. This arrangement could be replaced by fixed resistors if desired.
 
 Volume Circuit
 --------------
-The volume circuit shown here has not yet been tested successfully,
-however the core theory appears sound: A series resonant circuit
-varies the amplitude of the waveform seen on V4 pins 1 and 8.
-V4 acts as a DC restorer, converting the entire waveform to a
-positive voltage which is smoothed by the volume buffer capacitor.
+As with the pitch oscillators the tap on the volume oscillator should
+be made using a spade connector. The tap selected primarily influences
+the maximum voltage from the DC Restorer circuit, and has a secondary
+(minor) effect on the rate of change with respect to hand distance.
 
-The volume oscillator output has a high amplitude when the hand is far
-from the volume antenna, producing a large positive voltage on Grid 2
-of V6. The tube conducts and increases the output volume proportionally.
-When the hand is close to the volume antenna the volume oscillator
-output has a small amplitude. Grid 2 is at or near ground potential,
-cutting off V6 and silencing the output.
